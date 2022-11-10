@@ -1,0 +1,133 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: verdana, Genava, Tahoma, sans-serif;
+}
+
+/*HEADER*/
+header {
+    height: 75px;
+    background: #191919;
+    padding: 0px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.logo-eas {
+    /* background:#014BA0; */
+    box-sizing: border-box;
+    height: 60px;
+    display: flex;
+    margin-top: -5px;
+    margin-left: 20px;
+    padding-left:-20px;
+
+}
+.imagen-logo{
+    position: relative;
+    margin-top: -15px;
+}
+.letra-logo{
+/* height: 20px; */
+    margin-top: 22px;
+    margin-left: -20px;
+    color: #b8b8b8;
+ }
+ /* .letra-logo::first-letter{
+    color: #e2df06;    
+} */
+/* .letra-logo:last-child{
+    color: #e2df06;
+} */
+
+
+
+/* .logo {
+    text-transform: uppercase;
+    color: #6cc091;
+    font-weight: 200;
+} */
+.conten-nav {
+    position: sticky;
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+.conten-nav a {
+    color: #fff;
+    text-transform:capitalize;
+    text-decoration: none;
+    font: 1em sans-serif;
+    font-weight: 400;
+    margin-left: 30px;
+    padding: 0 10px;
+    transition: 0.3s;
+}
+
+/* .mostrar-menu,
+.esconder-menu {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+} */
+
+/* .mostrar-menu {
+    order: 1;
+} */
+
+/* .conten-nav a:hover{
+    color: #014BA0;
+    padding-bottom: 3px;
+    border-radius: 7%;
+    border-bottom: 4px solid #014BA0;
+} */
+.cont a:hover, .home a:hover, 
+.serv a:hover{
+     text-transform:scaleX(10px);
+    padding-bottom: 3px;
+    border-radius: 7%;
+    border-bottom: 4px solid #014BA0;
+}
+.btn-login{
+    background: #014BA0;
+    position: relative;
+     margin-top: 10px;
+    margin-right: -350px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #014BA0;
+    border-radius: 4px;
+    padding: 5px 8px;
+    transition: all 0.3s ;
+}
+
+.btn-login a{
+    position: relative;
+    margin-right: 0;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ;
+}
+
+.btn-registrarse{
+    /* background: #014BA0; */
+    margin-top: 10px;
+    margin-right:30px;
+    padding: 5px 5px;
+    border: 1px solid #fff  ;
+    border-radius: 10%;
+    transition: all 0.3s ;
+}
+.btn-registrarse a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+.btn-hover{
+    background: #6cc09070;
+}
