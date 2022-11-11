@@ -20,7 +20,7 @@
 --Azul-Secundario:hsl(241, 54%, 36%)
 ### Neutrales.
 --Blanco:hsl(0, 0%, 100%)
---Gris-Claro:hsl(240, 1%, 77%)
+--Gris-Claro: 
 
 ## Tipografias.
 
